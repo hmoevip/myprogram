@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1079</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCustomPlot" name="plot1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plot2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plot3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>10</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plot4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>10</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plot7" native="true">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>230</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plot6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>230</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plot5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCustomPlot" name="plot8" native="true">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>230</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1079</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>显示内容</string>
+    </property>
+    <addaction name="actionSpeed"/>
+    <addaction name="actionPosition"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSpeed">
+   <property name="text">
+    <string>speed</string>
+   </property>
+  </action>
+  <action name="actionPosition">
+   <property name="text">
+    <string>position</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>../../qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

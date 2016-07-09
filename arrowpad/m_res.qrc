@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/mres">
+        <file>img/upress.png</file>
+        <file>img/uon.png</file>
+        <file>img/rpress.png</file>
+        <file>img/ron.png</file>
+        <file>img/right.png</file>
+        <file>img/lpress.png</file>
+        <file>img/lon.png</file>
+        <file>img/left.png</file>
+        <file>img/dpress.png</file>
+        <file>img/down.png</file>
+        <file>img/don.png</file>
+        <file>img/background.png</file>
+        <file>img/up.png</file>
+        <file>img/rupress.png</file>
+        <file>img/ruon.png</file>
+        <file>img/rpress_rotate.png</file>
+        <file>img/ron_rotate.png</file>
+        <file>img/rightup.png</file>
+        <file>img/rightdown.png</file>
+        <file>img/right_rotate.png</file>
+        <file>img/rdpress.png</file>
+        <file>img/rdon.png</file>
+        <file>img/lupress.png</file>
+        <file>img/luon.png</file>
+        <file>img/lpress_rotate.png</file>
+        <file>img/lon_rotate.png</file>
+        <file>img/leftup.png</file>
+        <file>img/leftdown.png</file>
+        <file>img/left_rotate.png</file>
+        <file>img/ldpress.png</file>
+        <file>img/ldon.png</file>
+    </qresource>
+</RCC>

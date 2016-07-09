@@ -1,0 +1,702 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+C	.\morphing.h	/^		float C[10];$/;"	m	class:Morphing	access:private
+ComK	.\morphing.cpp	/^void Morphing::ComK(int b)$/;"	f	class:Morphing	signature:(int b)
+ComK	.\morphing.h	/^		void ComK(int b);$/;"	p	class:Morphing	access:private	signature:(int b)
+CylinderDialog::metaObject	.\release\moc_cylinder.cpp	/^const QMetaObject *CylinderDialog::metaObject() const$/;"	f	class:CylinderDialog	signature:() const
+CylinderDialog::qt_metacall	.\release\moc_cylinder.cpp	/^int CylinderDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CylinderDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+CylinderDialog::qt_metacast	.\release\moc_cylinder.cpp	/^void *CylinderDialog::qt_metacast(const char *_clname)$/;"	f	class:CylinderDialog	signature:(const char *_clname)
+CylinderDialog::staticMetaObject	.\release\moc_cylinder.cpp	/^const QMetaObject CylinderDialog::staticMetaObject = {$/;"	m	class:CylinderDialog	file:
+DrawOne	.\morphing.cpp	/^void Morphing::DrawOne()$/;"	f	class:Morphing	signature:()
+DrawOne	.\morphing.h	/^		void DrawOne();$/;"	p	class:Morphing	access:private	signature:()
+DrawThr	.\morphing.cpp	/^void Morphing::DrawThr()$/;"	f	class:Morphing	signature:()
+DrawThr	.\morphing.h	/^		void DrawThr();$/;"	p	class:Morphing	access:private	signature:()
+DrawTwo	.\morphing.cpp	/^void Morphing::DrawTwo()$/;"	f	class:Morphing	signature:()
+DrawTwo	.\morphing.h	/^		void DrawTwo();$/;"	p	class:Morphing	access:private	signature:()
+EXTEND_H	.\extend.h	2;"	d
+Extend	.\mainwindow.h	/^    QAction *Extend;$/;"	m	class:MainWindow	access:private
+ExtendDialog	.\extend.cpp	/^ExtendDialog::ExtendDialog(QWidget *parent):QDialog(parent)$/;"	f	class:ExtendDialog	signature:(QWidget *parent)
+ExtendDialog	.\extend.h	/^		ExtendDialog(QWidget *parent=0);$/;"	p	class:ExtendDialog	access:public	signature:(QWidget *parent=0)
+ExtendDialog	.\extend.h	/^class ExtendDialog:public QDialog,public Ui::ExtendDialog$/;"	c	inherits:QDialog,Ui::ExtendDialog
+ExtendDialog	.\ui_extend.h	/^    class ExtendDialog: public Ui_ExtendDialog {};$/;"	c	namespace:Ui	inherits:Ui_ExtendDialog
+ExtendDialog::ExtendDialog	.\extend.cpp	/^ExtendDialog::ExtendDialog(QWidget *parent):QDialog(parent)$/;"	f	class:ExtendDialog	signature:(QWidget *parent)
+ExtendDialog::ExtendDialog	.\extend.h	/^		ExtendDialog(QWidget *parent=0);$/;"	p	class:ExtendDialog	access:public	signature:(QWidget *parent=0)
+ExtendDialog::metaObject	.\release\moc_extend.cpp	/^const QMetaObject *ExtendDialog::metaObject() const$/;"	f	class:ExtendDialog	signature:() const
+ExtendDialog::qt_metacall	.\release\moc_extend.cpp	/^int ExtendDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ExtendDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+ExtendDialog::qt_metacast	.\release\moc_extend.cpp	/^void *ExtendDialog::qt_metacast(const char *_clname)$/;"	f	class:ExtendDialog	signature:(const char *_clname)
+ExtendDialog::staticMetaObject	.\release\moc_extend.cpp	/^const QMetaObject ExtendDialog::staticMetaObject = {$/;"	m	class:ExtendDialog	file:
+ExtendSettings	.\mainwindow.cpp	/^void MainWindow::ExtendSettings()$/;"	f	class:MainWindow	signature:()
+ExtendSettings	.\mainwindow.h	/^    void ExtendSettings();$/;"	p	class:MainWindow	access:private	signature:()
+GLUT_DISABLE_ATEXIT_HACK	.\glwidget.cpp	3;"	d	file:
+GLWIDGET_H	.\glwidget.h	2;"	d
+GLWidget	.\glwidget.cpp	/^GLWidget::GLWidget(QWidget *parent)$/;"	f	class:GLWidget	signature:(QWidget *parent)
+GLWidget	.\glwidget.h	/^    GLWidget(QWidget *parent = 0);$/;"	p	class:GLWidget	access:public	signature:(QWidget *parent = 0)
+GLWidget	.\glwidget.h	/^class GLWidget : public QGLWidget$/;"	c	inherits:QGLWidget
+GLWidget::GLWidget	.\glwidget.cpp	/^GLWidget::GLWidget(QWidget *parent)$/;"	f	class:GLWidget	signature:(QWidget *parent)
+GLWidget::GLWidget	.\glwidget.h	/^    GLWidget(QWidget *parent = 0);$/;"	p	class:GLWidget	access:public	signature:(QWidget *parent = 0)
+GLWidget::GetExtendParameter	.\glwidget.cpp	/^void GLWidget::GetExtendParameter(float *para)$/;"	f	class:GLWidget	signature:(float *para)
+GLWidget::GetExtendParameter	.\glwidget.h	/^    void GetExtendParameter(float *para);$/;"	p	class:GLWidget	access:public	signature:(float *para)
+GLWidget::GetTransParameter	.\glwidget.cpp	/^void GLWidget::GetTransParameter(float *para)$/;"	f	class:GLWidget	signature:(float *para)
+GLWidget::GetTransParameter	.\glwidget.h	/^    void GetTransParameter(float *para);$/;"	p	class:GLWidget	access:public	signature:(float *para)
+GLWidget::MyPaint	.\glwidget.cpp	/^void GLWidget::MyPaint()$/;"	f	class:GLWidget	signature:()
+GLWidget::MyPaint	.\glwidget.h	/^    void MyPaint();$/;"	p	class:GLWidget	access:protected	signature:()
+GLWidget::MyTra	.\glwidget.h	/^    Morphing MyTra;$/;"	m	class:GLWidget	access:private
+GLWidget::Normal	.\glwidget.cpp	/^MyPoint GLWidget::Normal(MyPoint in)$/;"	f	class:GLWidget	signature:(MyPoint in)
+GLWidget::Normal	.\glwidget.h	/^    MyPoint Normal(MyPoint in);$/;"	p	class:GLWidget	access:private	signature:(MyPoint in)
+GLWidget::PaintMainViewport	.\glwidget.cpp	/^void GLWidget::PaintMainViewport()$/;"	f	class:GLWidget	signature:()
+GLWidget::PaintMainViewport	.\glwidget.h	/^    void PaintMainViewport();$/;"	p	class:GLWidget	access:private	signature:()
+GLWidget::PaintPartLine	.\glwidget.cpp	/^void GLWidget::PaintPartLine()$/;"	f	class:GLWidget	signature:()
+GLWidget::PaintPartLine	.\glwidget.h	/^    void PaintPartLine();$/;"	p	class:GLWidget	access:private	signature:()
+GLWidget::PaintViewportX	.\glwidget.cpp	/^void GLWidget::PaintViewportX()$/;"	f	class:GLWidget	signature:()
+GLWidget::PaintViewportX	.\glwidget.h	/^    void PaintViewportX();$/;"	p	class:GLWidget	access:private	signature:()
+GLWidget::PaintViewportY	.\glwidget.cpp	/^void GLWidget::PaintViewportY()$/;"	f	class:GLWidget	signature:()
+GLWidget::PaintViewportY	.\glwidget.h	/^    void PaintViewportY();$/;"	p	class:GLWidget	access:private	signature:()
+GLWidget::PaintViewportZ	.\glwidget.cpp	/^void GLWidget::PaintViewportZ()$/;"	f	class:GLWidget	signature:()
+GLWidget::PaintViewportZ	.\glwidget.h	/^    void PaintViewportZ();$/;"	p	class:GLWidget	access:private	signature:()
+GLWidget::Quaternion	.\glwidget.cpp	/^void GLWidget::Quaternion(MyPoint v,float a)$/;"	f	class:GLWidget	signature:(MyPoint v,float a)
+GLWidget::Quaternion	.\glwidget.h	/^    void Quaternion(MyPoint v,float a);$/;"	p	class:GLWidget	access:private	signature:(MyPoint v,float a)
+GLWidget::RecordParameter	.\glwidget.h	/^    void RecordParameter(float *tr_par);$/;"	p	class:GLWidget	access:public	signature:(float *tr_par)
+GLWidget::RecordParameter	.\release\moc_glwidget.cpp	/^void GLWidget::RecordParameter(float * _t1)$/;"	f	class:GLWidget	signature:(float * _t1)
+GLWidget::RotationChangedText	.\glwidget.h	/^    void RotationChangedText(QString text);$/;"	p	class:GLWidget	access:public	signature:(QString text)
+GLWidget::RotationChangedText	.\release\moc_glwidget.cpp	/^void GLWidget::RotationChangedText(QString _t1)$/;"	f	class:GLWidget	signature:(QString _t1)
+GLWidget::centerX	.\glwidget.h	/^    int centerX;$/;"	m	class:GLWidget	access:private
+GLWidget::centerY	.\glwidget.h	/^    int centerY;$/;"	m	class:GLWidget	access:private
+GLWidget::ex_par	.\glwidget.h	/^    float ex_par[5];$/;"	m	class:GLWidget	access:private
+GLWidget::flag_in	.\glwidget.h	/^    bool flag_in;$/;"	m	class:GLWidget	access:private
+GLWidget::initializeGL	.\glwidget.cpp	/^void GLWidget::initializeGL()$/;"	f	class:GLWidget	signature:()
+GLWidget::initializeGL	.\glwidget.h	/^    void initializeGL();$/;"	p	class:GLWidget	access:protected	signature:()
+GLWidget::metaObject	.\release\moc_glwidget.cpp	/^const QMetaObject *GLWidget::metaObject() const$/;"	f	class:GLWidget	signature:() const
+GLWidget::minimumSizeHint	.\glwidget.cpp	/^QSize GLWidget::minimumSizeHint() const$/;"	f	class:GLWidget	signature:() const
+GLWidget::minimumSizeHint	.\glwidget.h	/^    QSize minimumSizeHint() const;$/;"	p	class:GLWidget	access:public	signature:() const
+GLWidget::mouseMoveEvent	.\glwidget.cpp	/^void GLWidget::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:GLWidget	signature:(QMouseEvent *event)
+GLWidget::mouseMoveEvent	.\glwidget.h	/^    void mouseMoveEvent(QMouseEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QMouseEvent *event)
+GLWidget::mouseOperate	.\glwidget.cpp	/^void GLWidget::mouseOperate()$/;"	f	class:GLWidget	signature:()
+GLWidget::mouseOperate	.\glwidget.h	/^    void mouseOperate();$/;"	p	class:GLWidget	access:protected	signature:()
+GLWidget::mousePressEvent	.\glwidget.cpp	/^void GLWidget::mousePressEvent(QMouseEvent *event)$/;"	f	class:GLWidget	signature:(QMouseEvent *event)
+GLWidget::mousePressEvent	.\glwidget.h	/^    void mousePressEvent(QMouseEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QMouseEvent *event)
+GLWidget::mouseReleaseEvent	.\glwidget.cpp	/^void GLWidget::mouseReleaseEvent(QMouseEvent *event)$/;"	f	class:GLWidget	signature:(QMouseEvent *event)
+GLWidget::mouseReleaseEvent	.\glwidget.h	/^    void mouseReleaseEvent(QMouseEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QMouseEvent *event)
+GLWidget::myheight	.\glwidget.h	/^    int myheight;$/;"	m	class:GLWidget	access:private
+GLWidget::mywidth	.\glwidget.h	/^    int mywidth;$/;"	m	class:GLWidget	access:private
+GLWidget::paintGL	.\glwidget.cpp	/^void GLWidget::paintGL()$/;"	f	class:GLWidget	signature:()
+GLWidget::paintGL	.\glwidget.h	/^    void paintGL();$/;"	p	class:GLWidget	access:protected	signature:()
+GLWidget::q	.\glwidget.h	/^    MyPoint q;$/;"	m	class:GLWidget	access:private
+GLWidget::qc	.\glwidget.h	/^    float qc;$/;"	m	class:GLWidget	access:private
+GLWidget::qt_metacall	.\release\moc_glwidget.cpp	/^int GLWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:GLWidget	signature:(QMetaObject::Call _c, int _id, void **_a)
+GLWidget::qt_metacast	.\release\moc_glwidget.cpp	/^void *GLWidget::qt_metacast(const char *_clname)$/;"	f	class:GLWidget	signature:(const char *_clname)
+GLWidget::r	.\glwidget.h	/^    int r;$/;"	m	class:GLWidget	access:private
+GLWidget::resizeGL	.\glwidget.cpp	/^void GLWidget::resizeGL(int width, int height)$/;"	f	class:GLWidget	signature:(int width, int height)
+GLWidget::resizeGL	.\glwidget.h	/^    void resizeGL( int width, int height );$/;"	p	class:GLWidget	access:protected	signature:( int width, int height )
+GLWidget::scale	.\glwidget.h	/^    float scale;$/;"	m	class:GLWidget	access:private
+GLWidget::setYRotation	.\glwidget.cpp	/^void GLWidget::setYRotation(int angle)$/;"	f	class:GLWidget	signature:(int angle)
+GLWidget::setYRotation	.\glwidget.h	/^    void setYRotation(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+GLWidget::setZRotation	.\glwidget.cpp	/^void GLWidget::setZRotation(int angle)$/;"	f	class:GLWidget	signature:(int angle)
+GLWidget::setZRotation	.\glwidget.h	/^    void setZRotation(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+GLWidget::sizeHint	.\glwidget.cpp	/^QSize GLWidget::sizeHint() const$/;"	f	class:GLWidget	signature:() const
+GLWidget::sizeHint	.\glwidget.h	/^    QSize sizeHint() const;$/;"	p	class:GLWidget	access:public	signature:() const
+GLWidget::staticMetaObject	.\release\moc_glwidget.cpp	/^const QMetaObject GLWidget::staticMetaObject = {$/;"	m	class:GLWidget	file:
+GLWidget::tr_par	.\glwidget.h	/^    float tr_par[6];$/;"	m	class:GLWidget	access:private
+GLWidget::vet	.\glwidget.h	/^    MyPoint vet;$/;"	m	class:GLWidget	access:private
+GLWidget::wheelEvent	.\glwidget.cpp	/^void GLWidget::wheelEvent(QWheelEvent *event)$/;"	f	class:GLWidget	signature:(QWheelEvent *event)
+GLWidget::wheelEvent	.\glwidget.h	/^    void wheelEvent(QWheelEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QWheelEvent *event)
+GLWidget::xRot	.\glwidget.h	/^    float xRot;$/;"	m	class:GLWidget	access:private
+GLWidget::xRotationChanged	.\glwidget.h	/^    void xRotationChanged(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+GLWidget::xRotationChanged	.\release\moc_glwidget.cpp	/^void GLWidget::xRotationChanged(int _t1)$/;"	f	class:GLWidget	signature:(int _t1)
+GLWidget::yRot	.\glwidget.h	/^    float yRot;$/;"	m	class:GLWidget	access:private
+GLWidget::yRotationChanged	.\glwidget.h	/^    void yRotationChanged(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+GLWidget::yRotationChanged	.\release\moc_glwidget.cpp	/^void GLWidget::yRotationChanged(int _t1)$/;"	f	class:GLWidget	signature:(int _t1)
+GLWidget::zRot	.\glwidget.h	/^    float zRot;$/;"	m	class:GLWidget	access:private
+GLWidget::zRotationChanged	.\glwidget.h	/^    void zRotationChanged(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+GLWidget::zRotationChanged	.\release\moc_glwidget.cpp	/^void GLWidget::zRotationChanged(int _t1)$/;"	f	class:GLWidget	signature:(int _t1)
+GLWidget::~GLWidget	.\glwidget.cpp	/^GLWidget::~GLWidget()$/;"	f	class:GLWidget	signature:()
+GLWidget::~GLWidget	.\glwidget.h	/^    ~GLWidget();$/;"	p	class:GLWidget	access:public	signature:()
+GetExtendParameter	.\glwidget.cpp	/^void GLWidget::GetExtendParameter(float *para)$/;"	f	class:GLWidget	signature:(float *para)
+GetExtendParameter	.\glwidget.h	/^    void GetExtendParameter(float *para);$/;"	p	class:GLWidget	access:public	signature:(float *para)
+GetTransParameter	.\glwidget.cpp	/^void GLWidget::GetTransParameter(float *para)$/;"	f	class:GLWidget	signature:(float *para)
+GetTransParameter	.\glwidget.h	/^    void GetTransParameter(float *para);$/;"	p	class:GLWidget	access:public	signature:(float *para)
+Init	.\morphing.cpp	/^void Morphing::Init(float *a,int fn)$/;"	f	class:Morphing	signature:(float *a,int fn)
+Init	.\morphing.h	/^	        void Init(float *a,int fn);$/;"	p	class:Morphing	access:public	signature:(float *a,int fn)
+MAINWINDOW_H	.\mainwindow.h	2;"	d
+MYCLASS_H	.\MyClass.h	2;"	d
+MainWindow	.\mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent)$/;"	f	class:MainWindow	signature:(QWidget *parent)
+MainWindow	.\mainwindow.h	/^    MainWindow(QWidget *parent = 0);$/;"	p	class:MainWindow	access:public	signature:(QWidget *parent = 0)
+MainWindow	.\mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c	inherits:QMainWindow
+MainWindow::Extend	.\mainwindow.h	/^    QAction *Extend;$/;"	m	class:MainWindow	access:private
+MainWindow::ExtendSettings	.\mainwindow.cpp	/^void MainWindow::ExtendSettings()$/;"	f	class:MainWindow	signature:()
+MainWindow::ExtendSettings	.\mainwindow.h	/^    void ExtendSettings();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::MainWindow	.\mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent)$/;"	f	class:MainWindow	signature:(QWidget *parent)
+MainWindow::MainWindow	.\mainwindow.h	/^    MainWindow(QWidget *parent = 0);$/;"	p	class:MainWindow	access:public	signature:(QWidget *parent = 0)
+MainWindow::ResetTranslate	.\mainwindow.cpp	/^void MainWindow::ResetTranslate(float *para)$/;"	f	class:MainWindow	signature:(float *para)
+MainWindow::ResetTranslate	.\mainwindow.h	/^    void ResetTranslate(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+MainWindow::Roll	.\mainwindow.h	/^    QAction *Roll;$/;"	m	class:MainWindow	access:private
+MainWindow::RollSettings	.\mainwindow.cpp	/^void MainWindow::RollSettings()$/;"	f	class:MainWindow	signature:()
+MainWindow::RollSettings	.\mainwindow.h	/^    void RollSettings();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::SetExtendParameter	.\mainwindow.h	/^    void SetExtendParameter(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+MainWindow::SetExtendParameter	.\release\moc_mainwindow.cpp	/^void MainWindow::SetExtendParameter(float * _t1)$/;"	f	class:MainWindow	signature:(float * _t1)
+MainWindow::SetRollParameter	.\mainwindow.h	/^    void SetRollParameter(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+MainWindow::SetTransParameter	.\mainwindow.h	/^    void SetTransParameter(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+MainWindow::SetTransParameter	.\release\moc_mainwindow.cpp	/^void MainWindow::SetTransParameter(float * _t1)$/;"	f	class:MainWindow	signature:(float * _t1)
+MainWindow::Translate	.\mainwindow.h	/^    QAction *Translate;$/;"	m	class:MainWindow	access:private
+MainWindow::TranslateSettings	.\mainwindow.cpp	/^void MainWindow::TranslateSettings()$/;"	f	class:MainWindow	signature:()
+MainWindow::TranslateSettings	.\mainwindow.h	/^    void TranslateSettings();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::createActions	.\mainwindow.cpp	/^void MainWindow::createActions()$/;"	f	class:MainWindow	signature:()
+MainWindow::createActions	.\mainwindow.h	/^    void createActions();$/;"	p	class:MainWindow	access:protected	signature:()
+MainWindow::createMenus	.\mainwindow.cpp	/^void MainWindow::createMenus()$/;"	f	class:MainWindow	signature:()
+MainWindow::createMenus	.\mainwindow.h	/^    void createMenus();$/;"	p	class:MainWindow	access:protected	signature:()
+MainWindow::fileMenu	.\mainwindow.h	/^    QMenu *fileMenu;$/;"	m	class:MainWindow	access:private
+MainWindow::flag_t	.\mainwindow.h	/^    bool flag_t;$/;"	m	class:MainWindow	access:private
+MainWindow::fullscreen	.\mainwindow.h	/^    bool fullscreen;$/;"	m	class:MainWindow	access:protected
+MainWindow::glWidget	.\mainwindow.h	/^    GLWidget *glWidget ;$/;"	m	class:MainWindow	access:private
+MainWindow::keyPressEvent	.\mainwindow.cpp	/^void MainWindow::keyPressEvent(QKeyEvent *e)$/;"	f	class:MainWindow	signature:(QKeyEvent *e)
+MainWindow::keyPressEvent	.\mainwindow.h	/^    void keyPressEvent( QKeyEvent *e );$/;"	p	class:MainWindow	access:protected	signature:( QKeyEvent *e )
+MainWindow::metaObject	.\release\moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow	signature:() const
+MainWindow::para_e	.\mainwindow.h	/^    float para_e[5];$/;"	m	class:MainWindow	access:private
+MainWindow::para_r	.\mainwindow.h	/^    float para_r[7];$/;"	m	class:MainWindow	access:private
+MainWindow::para_t	.\mainwindow.h	/^    float para_t[6];$/;"	m	class:MainWindow	access:private
+MainWindow::qt_metacall	.\release\moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	signature:(QMetaObject::Call _c, int _id, void **_a)
+MainWindow::qt_metacast	.\release\moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow	signature:(const char *_clname)
+MainWindow::staticMetaObject	.\release\moc_mainwindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+MainWindow::~MainWindow	.\mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow	signature:()
+MainWindow::~MainWindow	.\mainwindow.h	/^    ~MainWindow();$/;"	p	class:MainWindow	access:public	signature:()
+Morphing	.\morphing.cpp	/^Morphing::Morphing()$/;"	f	class:Morphing	signature:()
+Morphing	.\morphing.h	/^		Morphing();$/;"	p	class:Morphing	access:public	signature:()
+Morphing	.\morphing.h	/^class Morphing$/;"	c
+Morphing::C	.\morphing.h	/^		float C[10];$/;"	m	class:Morphing	access:private
+Morphing::ComK	.\morphing.cpp	/^void Morphing::ComK(int b)$/;"	f	class:Morphing	signature:(int b)
+Morphing::ComK	.\morphing.h	/^		void ComK(int b);$/;"	p	class:Morphing	access:private	signature:(int b)
+Morphing::DrawOne	.\morphing.cpp	/^void Morphing::DrawOne()$/;"	f	class:Morphing	signature:()
+Morphing::DrawOne	.\morphing.h	/^		void DrawOne();$/;"	p	class:Morphing	access:private	signature:()
+Morphing::DrawThr	.\morphing.cpp	/^void Morphing::DrawThr()$/;"	f	class:Morphing	signature:()
+Morphing::DrawThr	.\morphing.h	/^		void DrawThr();$/;"	p	class:Morphing	access:private	signature:()
+Morphing::DrawTwo	.\morphing.cpp	/^void Morphing::DrawTwo()$/;"	f	class:Morphing	signature:()
+Morphing::DrawTwo	.\morphing.h	/^		void DrawTwo();$/;"	p	class:Morphing	access:private	signature:()
+Morphing::Init	.\morphing.cpp	/^void Morphing::Init(float *a,int fn)$/;"	f	class:Morphing	signature:(float *a,int fn)
+Morphing::Init	.\morphing.h	/^	        void Init(float *a,int fn);$/;"	p	class:Morphing	access:public	signature:(float *a,int fn)
+Morphing::Morphing	.\morphing.cpp	/^Morphing::Morphing()$/;"	f	class:Morphing	signature:()
+Morphing::Morphing	.\morphing.h	/^		Morphing();$/;"	p	class:Morphing	access:public	signature:()
+Morphing::Origface	.\morphing.h	/^		QVector <MyFace> Origface;$/;"	m	class:Morphing	access:public
+Morphing::R	.\morphing.h	/^		float R;$/;"	m	class:Morphing	access:private
+Morphing::SetLocation	.\morphing.cpp	/^void Morphing::SetLocation()$/;"	f	class:Morphing	signature:()
+Morphing::SetLocation	.\morphing.h	/^		void SetLocation();$/;"	p	class:Morphing	access:private	signature:()
+Morphing::Targface	.\morphing.h	/^		QVector <MyFace> Targface;$/;"	m	class:Morphing	access:public
+Morphing::TestDraw	.\morphing.cpp	/^void Morphing::TestDraw()$/;"	f	class:Morphing	signature:()
+Morphing::TestDraw	.\morphing.h	/^		void TestDraw();$/;"	p	class:Morphing	access:private	signature:()
+Morphing::Two	.\morphing.h	/^		QVector <MyFace> Two;$/;"	m	class:Morphing	access:public
+Morphing::aup	.\morphing.h	/^		QVector <MyPoint> aup;$/;"	m	class:Morphing	access:private
+Morphing::bup	.\morphing.h	/^		QVector <MyPoint> bup;$/;"	m	class:Morphing	access:private
+Morphing::diff	.\morphing.h	/^		float diff;$/;"	m	class:Morphing	access:private
+Morphing::down	.\morphing.h	/^		QVector <MyPoint> down;$/;"	m	class:Morphing	access:private
+Morphing::ext	.\morphing.h	/^		float ext;$/;"	m	class:Morphing	access:private
+Morphing::h	.\morphing.h	/^		float h;$/;"	m	class:Morphing	access:private
+Morphing::k	.\morphing.h	/^		int k;$/;"	m	class:Morphing	access:private
+Morphing::r	.\morphing.h	/^		float r;$/;"	m	class:Morphing	access:private
+Morphing::x	.\morphing.h	/^		float x;$/;"	m	class:Morphing	access:private
+Morphing::y	.\morphing.h	/^		float y;$/;"	m	class:Morphing	access:private
+Morphing::~Morphing	.\morphing.cpp	/^Morphing::~Morphing()$/;"	f	class:Morphing	signature:()
+Morphing::~Morphing	.\morphing.h	/^		~Morphing();$/;"	p	class:Morphing	access:public	signature:()
+MyFace	.\MyClass.h	/^class MyFace$/;"	c
+MyFace::side	.\MyClass.h	/^	QVector <MySide> side;$/;"	m	class:MyFace	access:public
+MyFace::type	.\MyClass.h	/^	int type;$/;"	m	class:MyFace	access:public
+MyPaint	.\glwidget.cpp	/^void GLWidget::MyPaint()$/;"	f	class:GLWidget	signature:()
+MyPaint	.\glwidget.h	/^    void MyPaint();$/;"	p	class:GLWidget	access:protected	signature:()
+MyPoint	.\MyClass.h	/^class MyPoint$/;"	c
+MyPoint::dis	.\MyClass.h	/^	float dis(MyPoint s)$/;"	f	class:MyPoint	access:public	signature:(MyPoint s)
+MyPoint::operator !=	.\MyClass.h	/^	bool operator !=(MyPoint s){$/;"	f	class:MyPoint	access:public	signature:(MyPoint s)
+MyPoint::operator ==	.\MyClass.h	/^	bool operator ==(MyPoint s){$/;"	f	class:MyPoint	access:public	signature:(MyPoint s)
+MyPoint::x	.\MyClass.h	/^	float x;$/;"	m	class:MyPoint	access:public
+MyPoint::y	.\MyClass.h	/^	float y;$/;"	m	class:MyPoint	access:public
+MyPoint::z	.\MyClass.h	/^	float z;$/;"	m	class:MyPoint	access:public
+MySide	.\MyClass.h	/^class MySide$/;"	c
+MySide::Mybegin	.\MyClass.h	/^	MyPoint Mybegin;$/;"	m	class:MySide	access:public
+MySide::Myend	.\MyClass.h	/^	MyPoint Myend;$/;"	m	class:MySide	access:public
+MySide::operator !=	.\MyClass.h	/^	bool operator !=(MySide s){$/;"	f	class:MySide	access:public	signature:(MySide s)
+MySide::operator ==	.\MyClass.h	/^	bool operator ==(MySide s){$/;"	f	class:MySide	access:public	signature:(MySide s)
+MyTra	.\glwidget.h	/^    Morphing MyTra;$/;"	m	class:GLWidget	access:private
+MyVector	.\MyClass.h	/^class MyVector$/;"	c
+MyVector::a	.\MyClass.h	/^	double a;$/;"	m	class:MyVector	access:public
+MyVector::b	.\MyClass.h	/^	double b;$/;"	m	class:MyVector	access:public
+MyVector::c	.\MyClass.h	/^	double c;$/;"	m	class:MyVector	access:public
+MyVector::operator ==	.\MyClass.h	/^	bool operator ==(MyVector s){$/;"	f	class:MyVector	access:public	signature:(MyVector s)
+Mybegin	.\MyClass.h	/^	MyPoint Mybegin;$/;"	m	class:MySide	access:public
+Myend	.\MyClass.h	/^	MyPoint Myend;$/;"	m	class:MySide	access:public
+Normal	.\glwidget.cpp	/^MyPoint GLWidget::Normal(MyPoint in)$/;"	f	class:GLWidget	signature:(MyPoint in)
+Normal	.\glwidget.h	/^    MyPoint Normal(MyPoint in);$/;"	p	class:GLWidget	access:private	signature:(MyPoint in)
+Origface	.\morphing.h	/^		QVector <MyFace> Origface;$/;"	m	class:Morphing	access:public
+PI	.\MyClass.h	4;"	d
+PaintMainViewport	.\glwidget.cpp	/^void GLWidget::PaintMainViewport()$/;"	f	class:GLWidget	signature:()
+PaintMainViewport	.\glwidget.h	/^    void PaintMainViewport();$/;"	p	class:GLWidget	access:private	signature:()
+PaintPartLine	.\glwidget.cpp	/^void GLWidget::PaintPartLine()$/;"	f	class:GLWidget	signature:()
+PaintPartLine	.\glwidget.h	/^    void PaintPartLine();$/;"	p	class:GLWidget	access:private	signature:()
+PaintViewportX	.\glwidget.cpp	/^void GLWidget::PaintViewportX()$/;"	f	class:GLWidget	signature:()
+PaintViewportX	.\glwidget.h	/^    void PaintViewportX();$/;"	p	class:GLWidget	access:private	signature:()
+PaintViewportY	.\glwidget.cpp	/^void GLWidget::PaintViewportY()$/;"	f	class:GLWidget	signature:()
+PaintViewportY	.\glwidget.h	/^    void PaintViewportY();$/;"	p	class:GLWidget	access:private	signature:()
+PaintViewportZ	.\glwidget.cpp	/^void GLWidget::PaintViewportZ()$/;"	f	class:GLWidget	signature:()
+PaintViewportZ	.\glwidget.h	/^    void PaintViewportZ();$/;"	p	class:GLWidget	access:private	signature:()
+Quaternion	.\glwidget.cpp	/^void GLWidget::Quaternion(MyPoint v,float a)$/;"	f	class:GLWidget	signature:(MyPoint v,float a)
+Quaternion	.\glwidget.h	/^    void Quaternion(MyPoint v,float a);$/;"	p	class:GLWidget	access:private	signature:(MyPoint v,float a)
+R	.\morphing.h	/^		float R;$/;"	m	class:Morphing	access:private
+ROLL_H	.\roll.h	2;"	d
+RecordParameter	.\glwidget.h	/^    void RecordParameter(float *tr_par);$/;"	p	class:GLWidget	access:public	signature:(float *tr_par)
+RecordParameter	.\release\moc_glwidget.cpp	/^void GLWidget::RecordParameter(float * _t1)$/;"	f	class:GLWidget	signature:(float * _t1)
+ResetTranslate	.\mainwindow.cpp	/^void MainWindow::ResetTranslate(float *para)$/;"	f	class:MainWindow	signature:(float *para)
+ResetTranslate	.\mainwindow.h	/^    void ResetTranslate(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+Roll	.\mainwindow.h	/^    QAction *Roll;$/;"	m	class:MainWindow	access:private
+RollDialog	.\roll.cpp	/^RollDialog::RollDialog(QWidget *parent):QDialog(parent)$/;"	f	class:RollDialog	signature:(QWidget *parent)
+RollDialog	.\roll.h	/^		RollDialog(QWidget *parent=0);$/;"	p	class:RollDialog	access:public	signature:(QWidget *parent=0)
+RollDialog	.\roll.h	/^class RollDialog:public QDialog,public Ui::RollDialog$/;"	c	inherits:QDialog,Ui::RollDialog
+RollDialog	.\ui_roll.h	/^    class RollDialog: public Ui_RollDialog {};$/;"	c	namespace:Ui	inherits:Ui_RollDialog
+RollDialog::RollDialog	.\roll.cpp	/^RollDialog::RollDialog(QWidget *parent):QDialog(parent)$/;"	f	class:RollDialog	signature:(QWidget *parent)
+RollDialog::RollDialog	.\roll.h	/^		RollDialog(QWidget *parent=0);$/;"	p	class:RollDialog	access:public	signature:(QWidget *parent=0)
+RollDialog::metaObject	.\release\moc_roll.cpp	/^const QMetaObject *RollDialog::metaObject() const$/;"	f	class:RollDialog	signature:() const
+RollDialog::qt_metacall	.\release\moc_roll.cpp	/^int RollDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:RollDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+RollDialog::qt_metacast	.\release\moc_roll.cpp	/^void *RollDialog::qt_metacast(const char *_clname)$/;"	f	class:RollDialog	signature:(const char *_clname)
+RollDialog::staticMetaObject	.\release\moc_roll.cpp	/^const QMetaObject RollDialog::staticMetaObject = {$/;"	m	class:RollDialog	file:
+RollSettings	.\mainwindow.cpp	/^void MainWindow::RollSettings()$/;"	f	class:MainWindow	signature:()
+RollSettings	.\mainwindow.h	/^    void RollSettings();$/;"	p	class:MainWindow	access:private	signature:()
+RotationChangedText	.\glwidget.h	/^    void RotationChangedText(QString text);$/;"	p	class:GLWidget	access:public	signature:(QString text)
+RotationChangedText	.\release\moc_glwidget.cpp	/^void GLWidget::RotationChangedText(QString _t1)$/;"	f	class:GLWidget	signature:(QString _t1)
+SetExtendParameter	.\mainwindow.h	/^    void SetExtendParameter(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+SetExtendParameter	.\release\moc_mainwindow.cpp	/^void MainWindow::SetExtendParameter(float * _t1)$/;"	f	class:MainWindow	signature:(float * _t1)
+SetLocation	.\morphing.cpp	/^void Morphing::SetLocation()$/;"	f	class:Morphing	signature:()
+SetLocation	.\morphing.h	/^		void SetLocation();$/;"	p	class:Morphing	access:private	signature:()
+SetRollParameter	.\mainwindow.h	/^    void SetRollParameter(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+SetTransParameter	.\mainwindow.h	/^    void SetTransParameter(float *para);$/;"	p	class:MainWindow	access:private	signature:(float *para)
+SetTransParameter	.\release\moc_mainwindow.cpp	/^void MainWindow::SetTransParameter(float * _t1)$/;"	f	class:MainWindow	signature:(float * _t1)
+StretchDialog	.\ui_stretch.h	/^    class StretchDialog: public Ui_StretchDialog {};$/;"	c	namespace:Ui	inherits:Ui_StretchDialog
+StretchDialog::metaObject	.\release\moc_stretch.cpp	/^const QMetaObject *StretchDialog::metaObject() const$/;"	f	class:StretchDialog	signature:() const
+StretchDialog::qt_metacall	.\release\moc_stretch.cpp	/^int StretchDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:StretchDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+StretchDialog::qt_metacast	.\release\moc_stretch.cpp	/^void *StretchDialog::qt_metacast(const char *_clname)$/;"	f	class:StretchDialog	signature:(const char *_clname)
+StretchDialog::staticMetaObject	.\release\moc_stretch.cpp	/^const QMetaObject StretchDialog::staticMetaObject = {$/;"	m	class:StretchDialog	file:
+TRANSLATE_H	.\translate.h	2;"	d
+TRANSLATION_H	.\morphing.h	2;"	d
+Targface	.\morphing.h	/^		QVector <MyFace> Targface;$/;"	m	class:Morphing	access:public
+TestDraw	.\morphing.cpp	/^void Morphing::TestDraw()$/;"	f	class:Morphing	signature:()
+TestDraw	.\morphing.h	/^		void TestDraw();$/;"	p	class:Morphing	access:private	signature:()
+Translate	.\mainwindow.h	/^    QAction *Translate;$/;"	m	class:MainWindow	access:private
+TranslateDialog	.\translate.cpp	/^TranslateDialog::TranslateDialog(QWidget *parent):QDialog(parent)$/;"	f	class:TranslateDialog	signature:(QWidget *parent)
+TranslateDialog	.\translate.h	/^		TranslateDialog(QWidget *parent=0);$/;"	p	class:TranslateDialog	access:public	signature:(QWidget *parent=0)
+TranslateDialog	.\translate.h	/^class TranslateDialog:public QDialog,public Ui::TranslateDialog$/;"	c	inherits:QDialog,Ui::TranslateDialog
+TranslateDialog	.\ui_translate.h	/^    class TranslateDialog: public Ui_TranslateDialog {};$/;"	c	namespace:Ui	inherits:Ui_TranslateDialog
+TranslateDialog::TranslateDialog	.\translate.cpp	/^TranslateDialog::TranslateDialog(QWidget *parent):QDialog(parent)$/;"	f	class:TranslateDialog	signature:(QWidget *parent)
+TranslateDialog::TranslateDialog	.\translate.h	/^		TranslateDialog(QWidget *parent=0);$/;"	p	class:TranslateDialog	access:public	signature:(QWidget *parent=0)
+TranslateDialog::metaObject	.\release\moc_translate.cpp	/^const QMetaObject *TranslateDialog::metaObject() const$/;"	f	class:TranslateDialog	signature:() const
+TranslateDialog::qt_metacall	.\release\moc_translate.cpp	/^int TranslateDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TranslateDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+TranslateDialog::qt_metacast	.\release\moc_translate.cpp	/^void *TranslateDialog::qt_metacast(const char *_clname)$/;"	f	class:TranslateDialog	signature:(const char *_clname)
+TranslateDialog::staticMetaObject	.\release\moc_translate.cpp	/^const QMetaObject TranslateDialog::staticMetaObject = {$/;"	m	class:TranslateDialog	file:
+TranslateSettings	.\mainwindow.cpp	/^void MainWindow::TranslateSettings()$/;"	f	class:MainWindow	signature:()
+TranslateSettings	.\mainwindow.h	/^    void TranslateSettings();$/;"	p	class:MainWindow	access:private	signature:()
+Two	.\morphing.h	/^		QVector <MyFace> Two;$/;"	m	class:Morphing	access:public
+UI_EXTEND_H	.\ui_extend.h	11;"	d
+UI_ROLL_H	.\ui_roll.h	11;"	d
+UI_STRETCH_H	.\ui_stretch.h	11;"	d
+UI_TRANSLATE_H	.\ui_translate.h	11;"	d
+Ui	.\ui_extend.h	/^namespace Ui {$/;"	n
+Ui	.\ui_roll.h	/^namespace Ui {$/;"	n
+Ui	.\ui_stretch.h	/^namespace Ui {$/;"	n
+Ui	.\ui_translate.h	/^namespace Ui {$/;"	n
+Ui::ExtendDialog	.\ui_extend.h	/^    class ExtendDialog: public Ui_ExtendDialog {};$/;"	c	namespace:Ui	inherits:Ui_ExtendDialog
+Ui::RollDialog	.\ui_roll.h	/^    class RollDialog: public Ui_RollDialog {};$/;"	c	namespace:Ui	inherits:Ui_RollDialog
+Ui::StretchDialog	.\ui_stretch.h	/^    class StretchDialog: public Ui_StretchDialog {};$/;"	c	namespace:Ui	inherits:Ui_StretchDialog
+Ui::TranslateDialog	.\ui_translate.h	/^    class TranslateDialog: public Ui_TranslateDialog {};$/;"	c	namespace:Ui	inherits:Ui_TranslateDialog
+Ui_ExtendDialog	.\ui_extend.h	/^class Ui_ExtendDialog$/;"	c
+Ui_ExtendDialog::cancelButton	.\ui_extend.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::doubleSpinBox	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::doubleSpinBox_2	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::doubleSpinBox_3	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::doubleSpinBox_4	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::doubleSpinBox_5	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::groupBox	.\ui_extend.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::hboxLayout	.\ui_extend.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::hboxLayout1	.\ui_extend.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::hboxLayout2	.\ui_extend.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::hboxLayout3	.\ui_extend.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::hboxLayout4	.\ui_extend.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::hboxLayout5	.\ui_extend.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label	.\ui_extend.h	/^    QLabel *label;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_10	.\ui_extend.h	/^    QLabel *label_10;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_11	.\ui_extend.h	/^    QLabel *label_11;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_14	.\ui_extend.h	/^    QLabel *label_14;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_2	.\ui_extend.h	/^    QLabel *label_2;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_3	.\ui_extend.h	/^    QLabel *label_3;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_4	.\ui_extend.h	/^    QLabel *label_4;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_5	.\ui_extend.h	/^    QLabel *label_5;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_8	.\ui_extend.h	/^    QLabel *label_8;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::label_9	.\ui_extend.h	/^    QLabel *label_9;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::layoutWidget	.\ui_extend.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::okButton	.\ui_extend.h	/^    QPushButton *okButton;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::retranslateUi	.\ui_extend.h	/^    void retranslateUi(QDialog *ExtendDialog)$/;"	f	class:Ui_ExtendDialog	access:public	signature:(QDialog *ExtendDialog)
+Ui_ExtendDialog::setupUi	.\ui_extend.h	/^    void setupUi(QDialog *ExtendDialog)$/;"	f	class:Ui_ExtendDialog	access:public	signature:(QDialog *ExtendDialog)
+Ui_ExtendDialog::spacerItem	.\ui_extend.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_ExtendDialog::vboxLayout	.\ui_extend.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_ExtendDialog	access:public
+Ui_RollDialog	.\ui_roll.h	/^class Ui_RollDialog$/;"	c
+Ui_RollDialog::cancelButton	.\ui_roll.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::doubleSpinBox	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::doubleSpinBox_2	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::doubleSpinBox_3	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::doubleSpinBox_4	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::doubleSpinBox_5	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::doubleSpinBox_6	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_6;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::doubleSpinBox_7	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_7;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::groupBox	.\ui_roll.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::hboxLayout	.\ui_roll.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::hboxLayout1	.\ui_roll.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::hboxLayout2	.\ui_roll.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::hboxLayout3	.\ui_roll.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::hboxLayout4	.\ui_roll.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::hboxLayout5	.\ui_roll.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::hboxLayout6	.\ui_roll.h	/^    QHBoxLayout *hboxLayout6;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label	.\ui_roll.h	/^    QLabel *label;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_10	.\ui_roll.h	/^    QLabel *label_10;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_11	.\ui_roll.h	/^    QLabel *label_11;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_13	.\ui_roll.h	/^    QLabel *label_13;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_14	.\ui_roll.h	/^    QLabel *label_14;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_2	.\ui_roll.h	/^    QLabel *label_2;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_3	.\ui_roll.h	/^    QLabel *label_3;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_4	.\ui_roll.h	/^    QLabel *label_4;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_5	.\ui_roll.h	/^    QLabel *label_5;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_6	.\ui_roll.h	/^    QLabel *label_6;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_7	.\ui_roll.h	/^    QLabel *label_7;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_8	.\ui_roll.h	/^    QLabel *label_8;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::label_9	.\ui_roll.h	/^    QLabel *label_9;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::layoutWidget	.\ui_roll.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::okButton	.\ui_roll.h	/^    QPushButton *okButton;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::retranslateUi	.\ui_roll.h	/^    void retranslateUi(QDialog *RollDialog)$/;"	f	class:Ui_RollDialog	access:public	signature:(QDialog *RollDialog)
+Ui_RollDialog::setupUi	.\ui_roll.h	/^    void setupUi(QDialog *RollDialog)$/;"	f	class:Ui_RollDialog	access:public	signature:(QDialog *RollDialog)
+Ui_RollDialog::spacerItem	.\ui_roll.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::spacerItem1	.\ui_roll.h	/^    QSpacerItem *spacerItem1;$/;"	m	class:Ui_RollDialog	access:public
+Ui_RollDialog::vboxLayout	.\ui_roll.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_RollDialog	access:public
+Ui_StretchDialog	.\ui_stretch.h	/^class Ui_StretchDialog$/;"	c
+Ui_StretchDialog::cancelButton	.\ui_stretch.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::doubleSpinBox	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::doubleSpinBox_2	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::doubleSpinBox_3	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::doubleSpinBox_4	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::doubleSpinBox_5	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::groupBox	.\ui_stretch.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::hboxLayout	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::hboxLayout1	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::hboxLayout2	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::hboxLayout3	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::hboxLayout4	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::hboxLayout5	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label	.\ui_stretch.h	/^    QLabel *label;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_10	.\ui_stretch.h	/^    QLabel *label_10;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_11	.\ui_stretch.h	/^    QLabel *label_11;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_14	.\ui_stretch.h	/^    QLabel *label_14;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_2	.\ui_stretch.h	/^    QLabel *label_2;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_3	.\ui_stretch.h	/^    QLabel *label_3;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_4	.\ui_stretch.h	/^    QLabel *label_4;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_5	.\ui_stretch.h	/^    QLabel *label_5;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_8	.\ui_stretch.h	/^    QLabel *label_8;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::label_9	.\ui_stretch.h	/^    QLabel *label_9;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::okButton	.\ui_stretch.h	/^    QPushButton *okButton;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::retranslateUi	.\ui_stretch.h	/^    void retranslateUi(QDialog *StretchDialog)$/;"	f	class:Ui_StretchDialog	access:public	signature:(QDialog *StretchDialog)
+Ui_StretchDialog::setupUi	.\ui_stretch.h	/^    void setupUi(QDialog *StretchDialog)$/;"	f	class:Ui_StretchDialog	access:public	signature:(QDialog *StretchDialog)
+Ui_StretchDialog::spacerItem	.\ui_stretch.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::vboxLayout	.\ui_stretch.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_StretchDialog::widget	.\ui_stretch.h	/^    QWidget *widget;$/;"	m	class:Ui_StretchDialog	access:public
+Ui_TranslateDialog	.\ui_translate.h	/^class Ui_TranslateDialog$/;"	c
+Ui_TranslateDialog::cancelButton	.\ui_translate.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::doubleSpinBox	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::doubleSpinBox_2	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::doubleSpinBox_3	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::doubleSpinBox_4	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::doubleSpinBox_5	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::doubleSpinBox_6	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_6;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::groupBox	.\ui_translate.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::hboxLayout	.\ui_translate.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::hboxLayout1	.\ui_translate.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::hboxLayout2	.\ui_translate.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::hboxLayout3	.\ui_translate.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::hboxLayout4	.\ui_translate.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::hboxLayout5	.\ui_translate.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label	.\ui_translate.h	/^    QLabel *label;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_10	.\ui_translate.h	/^    QLabel *label_10;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_11	.\ui_translate.h	/^    QLabel *label_11;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_12	.\ui_translate.h	/^    QLabel *label_12;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_13	.\ui_translate.h	/^    QLabel *label_13;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_14	.\ui_translate.h	/^    QLabel *label_14;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_2	.\ui_translate.h	/^    QLabel *label_2;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_3	.\ui_translate.h	/^    QLabel *label_3;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_4	.\ui_translate.h	/^    QLabel *label_4;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_5	.\ui_translate.h	/^    QLabel *label_5;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_6	.\ui_translate.h	/^    QLabel *label_6;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_7	.\ui_translate.h	/^    QLabel *label_7;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_8	.\ui_translate.h	/^    QLabel *label_8;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::label_9	.\ui_translate.h	/^    QLabel *label_9;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::layoutWidget	.\ui_translate.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::okButton	.\ui_translate.h	/^    QPushButton *okButton;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::retranslateUi	.\ui_translate.h	/^    void retranslateUi(QDialog *TranslateDialog)$/;"	f	class:Ui_TranslateDialog	access:public	signature:(QDialog *TranslateDialog)
+Ui_TranslateDialog::setupUi	.\ui_translate.h	/^    void setupUi(QDialog *TranslateDialog)$/;"	f	class:Ui_TranslateDialog	access:public	signature:(QDialog *TranslateDialog)
+Ui_TranslateDialog::spacerItem	.\ui_translate.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::vboxLayout	.\ui_translate.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::vboxLayout1	.\ui_translate.h	/^    QVBoxLayout *vboxLayout1;$/;"	m	class:Ui_TranslateDialog	access:public
+Ui_TranslateDialog::vboxLayout2	.\ui_translate.h	/^    QVBoxLayout *vboxLayout2;$/;"	m	class:Ui_TranslateDialog	access:public
+_M_IX86	.\glwidget.cpp	2;"	d	file:
+_STDCALL_SUPPORTED	.\glwidget.cpp	1;"	d	file:
+a	.\MyClass.h	/^	double a;$/;"	m	class:MyVector	access:public
+aup	.\morphing.h	/^		QVector <MyPoint> aup;$/;"	m	class:Morphing	access:private
+b	.\MyClass.h	/^	double b;$/;"	m	class:MyVector	access:public
+bup	.\morphing.h	/^		QVector <MyPoint> bup;$/;"	m	class:Morphing	access:private
+c	.\MyClass.h	/^	double c;$/;"	m	class:MyVector	access:public
+cancelButton	.\ui_extend.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_ExtendDialog	access:public
+cancelButton	.\ui_roll.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_RollDialog	access:public
+cancelButton	.\ui_stretch.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_StretchDialog	access:public
+cancelButton	.\ui_translate.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_TranslateDialog	access:public
+centerX	.\glwidget.h	/^    int centerX;$/;"	m	class:GLWidget	access:private
+centerY	.\glwidget.h	/^    int centerY;$/;"	m	class:GLWidget	access:private
+createActions	.\mainwindow.cpp	/^void MainWindow::createActions()$/;"	f	class:MainWindow	signature:()
+createActions	.\mainwindow.h	/^    void createActions();$/;"	p	class:MainWindow	access:protected	signature:()
+createMenus	.\mainwindow.cpp	/^void MainWindow::createMenus()$/;"	f	class:MainWindow	signature:()
+createMenus	.\mainwindow.h	/^    void createMenus();$/;"	p	class:MainWindow	access:protected	signature:()
+diff	.\morphing.h	/^		float diff;$/;"	m	class:Morphing	access:private
+dis	.\MyClass.h	/^	float dis(MyPoint s)$/;"	f	class:MyPoint	access:public	signature:(MyPoint s)
+doubleSpinBox	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_ExtendDialog	access:public
+doubleSpinBox	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_RollDialog	access:public
+doubleSpinBox	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_StretchDialog	access:public
+doubleSpinBox	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox;$/;"	m	class:Ui_TranslateDialog	access:public
+doubleSpinBox_2	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_ExtendDialog	access:public
+doubleSpinBox_2	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_RollDialog	access:public
+doubleSpinBox_2	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_StretchDialog	access:public
+doubleSpinBox_2	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_2;$/;"	m	class:Ui_TranslateDialog	access:public
+doubleSpinBox_3	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_ExtendDialog	access:public
+doubleSpinBox_3	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_RollDialog	access:public
+doubleSpinBox_3	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_StretchDialog	access:public
+doubleSpinBox_3	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_3;$/;"	m	class:Ui_TranslateDialog	access:public
+doubleSpinBox_4	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_ExtendDialog	access:public
+doubleSpinBox_4	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_RollDialog	access:public
+doubleSpinBox_4	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_StretchDialog	access:public
+doubleSpinBox_4	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_4;$/;"	m	class:Ui_TranslateDialog	access:public
+doubleSpinBox_5	.\ui_extend.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_ExtendDialog	access:public
+doubleSpinBox_5	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_RollDialog	access:public
+doubleSpinBox_5	.\ui_stretch.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_StretchDialog	access:public
+doubleSpinBox_5	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_5;$/;"	m	class:Ui_TranslateDialog	access:public
+doubleSpinBox_6	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_6;$/;"	m	class:Ui_RollDialog	access:public
+doubleSpinBox_6	.\ui_translate.h	/^    QDoubleSpinBox *doubleSpinBox_6;$/;"	m	class:Ui_TranslateDialog	access:public
+doubleSpinBox_7	.\ui_roll.h	/^    QDoubleSpinBox *doubleSpinBox_7;$/;"	m	class:Ui_RollDialog	access:public
+down	.\morphing.h	/^		QVector <MyPoint> down;$/;"	m	class:Morphing	access:private
+ex_par	.\glwidget.h	/^    float ex_par[5];$/;"	m	class:GLWidget	access:private
+ext	.\morphing.h	/^		float ext;$/;"	m	class:Morphing	access:private
+fileMenu	.\mainwindow.h	/^    QMenu *fileMenu;$/;"	m	class:MainWindow	access:private
+flag_in	.\glwidget.h	/^    bool flag_in;$/;"	m	class:GLWidget	access:private
+flag_t	.\mainwindow.h	/^    bool flag_t;$/;"	m	class:MainWindow	access:private
+fullscreen	.\mainwindow.h	/^    bool fullscreen;$/;"	m	class:MainWindow	access:protected
+glWidget	.\mainwindow.h	/^    GLWidget *glWidget ;$/;"	m	class:MainWindow	access:private
+groupBox	.\ui_extend.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_ExtendDialog	access:public
+groupBox	.\ui_roll.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_RollDialog	access:public
+groupBox	.\ui_stretch.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_StretchDialog	access:public
+groupBox	.\ui_translate.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_TranslateDialog	access:public
+h	.\morphing.h	/^		float h;$/;"	m	class:Morphing	access:private
+hboxLayout	.\ui_extend.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_ExtendDialog	access:public
+hboxLayout	.\ui_roll.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_RollDialog	access:public
+hboxLayout	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_StretchDialog	access:public
+hboxLayout	.\ui_translate.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_TranslateDialog	access:public
+hboxLayout1	.\ui_extend.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_ExtendDialog	access:public
+hboxLayout1	.\ui_roll.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_RollDialog	access:public
+hboxLayout1	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_StretchDialog	access:public
+hboxLayout1	.\ui_translate.h	/^    QHBoxLayout *hboxLayout1;$/;"	m	class:Ui_TranslateDialog	access:public
+hboxLayout2	.\ui_extend.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_ExtendDialog	access:public
+hboxLayout2	.\ui_roll.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_RollDialog	access:public
+hboxLayout2	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_StretchDialog	access:public
+hboxLayout2	.\ui_translate.h	/^    QHBoxLayout *hboxLayout2;$/;"	m	class:Ui_TranslateDialog	access:public
+hboxLayout3	.\ui_extend.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_ExtendDialog	access:public
+hboxLayout3	.\ui_roll.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_RollDialog	access:public
+hboxLayout3	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_StretchDialog	access:public
+hboxLayout3	.\ui_translate.h	/^    QHBoxLayout *hboxLayout3;$/;"	m	class:Ui_TranslateDialog	access:public
+hboxLayout4	.\ui_extend.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_ExtendDialog	access:public
+hboxLayout4	.\ui_roll.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_RollDialog	access:public
+hboxLayout4	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_StretchDialog	access:public
+hboxLayout4	.\ui_translate.h	/^    QHBoxLayout *hboxLayout4;$/;"	m	class:Ui_TranslateDialog	access:public
+hboxLayout5	.\ui_extend.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_ExtendDialog	access:public
+hboxLayout5	.\ui_roll.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_RollDialog	access:public
+hboxLayout5	.\ui_stretch.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_StretchDialog	access:public
+hboxLayout5	.\ui_translate.h	/^    QHBoxLayout *hboxLayout5;$/;"	m	class:Ui_TranslateDialog	access:public
+hboxLayout6	.\ui_roll.h	/^    QHBoxLayout *hboxLayout6;$/;"	m	class:Ui_RollDialog	access:public
+initializeGL	.\glwidget.cpp	/^void GLWidget::initializeGL()$/;"	f	class:GLWidget	signature:()
+initializeGL	.\glwidget.h	/^    void initializeGL();$/;"	p	class:GLWidget	access:protected	signature:()
+k	.\morphing.h	/^		int k;$/;"	m	class:Morphing	access:private
+keyPressEvent	.\mainwindow.cpp	/^void MainWindow::keyPressEvent(QKeyEvent *e)$/;"	f	class:MainWindow	signature:(QKeyEvent *e)
+keyPressEvent	.\mainwindow.h	/^    void keyPressEvent( QKeyEvent *e );$/;"	p	class:MainWindow	access:protected	signature:( QKeyEvent *e )
+label	.\ui_extend.h	/^    QLabel *label;$/;"	m	class:Ui_ExtendDialog	access:public
+label	.\ui_roll.h	/^    QLabel *label;$/;"	m	class:Ui_RollDialog	access:public
+label	.\ui_stretch.h	/^    QLabel *label;$/;"	m	class:Ui_StretchDialog	access:public
+label	.\ui_translate.h	/^    QLabel *label;$/;"	m	class:Ui_TranslateDialog	access:public
+label_10	.\ui_extend.h	/^    QLabel *label_10;$/;"	m	class:Ui_ExtendDialog	access:public
+label_10	.\ui_roll.h	/^    QLabel *label_10;$/;"	m	class:Ui_RollDialog	access:public
+label_10	.\ui_stretch.h	/^    QLabel *label_10;$/;"	m	class:Ui_StretchDialog	access:public
+label_10	.\ui_translate.h	/^    QLabel *label_10;$/;"	m	class:Ui_TranslateDialog	access:public
+label_11	.\ui_extend.h	/^    QLabel *label_11;$/;"	m	class:Ui_ExtendDialog	access:public
+label_11	.\ui_roll.h	/^    QLabel *label_11;$/;"	m	class:Ui_RollDialog	access:public
+label_11	.\ui_stretch.h	/^    QLabel *label_11;$/;"	m	class:Ui_StretchDialog	access:public
+label_11	.\ui_translate.h	/^    QLabel *label_11;$/;"	m	class:Ui_TranslateDialog	access:public
+label_12	.\ui_translate.h	/^    QLabel *label_12;$/;"	m	class:Ui_TranslateDialog	access:public
+label_13	.\ui_roll.h	/^    QLabel *label_13;$/;"	m	class:Ui_RollDialog	access:public
+label_13	.\ui_translate.h	/^    QLabel *label_13;$/;"	m	class:Ui_TranslateDialog	access:public
+label_14	.\ui_extend.h	/^    QLabel *label_14;$/;"	m	class:Ui_ExtendDialog	access:public
+label_14	.\ui_roll.h	/^    QLabel *label_14;$/;"	m	class:Ui_RollDialog	access:public
+label_14	.\ui_stretch.h	/^    QLabel *label_14;$/;"	m	class:Ui_StretchDialog	access:public
+label_14	.\ui_translate.h	/^    QLabel *label_14;$/;"	m	class:Ui_TranslateDialog	access:public
+label_2	.\ui_extend.h	/^    QLabel *label_2;$/;"	m	class:Ui_ExtendDialog	access:public
+label_2	.\ui_roll.h	/^    QLabel *label_2;$/;"	m	class:Ui_RollDialog	access:public
+label_2	.\ui_stretch.h	/^    QLabel *label_2;$/;"	m	class:Ui_StretchDialog	access:public
+label_2	.\ui_translate.h	/^    QLabel *label_2;$/;"	m	class:Ui_TranslateDialog	access:public
+label_3	.\ui_extend.h	/^    QLabel *label_3;$/;"	m	class:Ui_ExtendDialog	access:public
+label_3	.\ui_roll.h	/^    QLabel *label_3;$/;"	m	class:Ui_RollDialog	access:public
+label_3	.\ui_stretch.h	/^    QLabel *label_3;$/;"	m	class:Ui_StretchDialog	access:public
+label_3	.\ui_translate.h	/^    QLabel *label_3;$/;"	m	class:Ui_TranslateDialog	access:public
+label_4	.\ui_extend.h	/^    QLabel *label_4;$/;"	m	class:Ui_ExtendDialog	access:public
+label_4	.\ui_roll.h	/^    QLabel *label_4;$/;"	m	class:Ui_RollDialog	access:public
+label_4	.\ui_stretch.h	/^    QLabel *label_4;$/;"	m	class:Ui_StretchDialog	access:public
+label_4	.\ui_translate.h	/^    QLabel *label_4;$/;"	m	class:Ui_TranslateDialog	access:public
+label_5	.\ui_extend.h	/^    QLabel *label_5;$/;"	m	class:Ui_ExtendDialog	access:public
+label_5	.\ui_roll.h	/^    QLabel *label_5;$/;"	m	class:Ui_RollDialog	access:public
+label_5	.\ui_stretch.h	/^    QLabel *label_5;$/;"	m	class:Ui_StretchDialog	access:public
+label_5	.\ui_translate.h	/^    QLabel *label_5;$/;"	m	class:Ui_TranslateDialog	access:public
+label_6	.\ui_roll.h	/^    QLabel *label_6;$/;"	m	class:Ui_RollDialog	access:public
+label_6	.\ui_translate.h	/^    QLabel *label_6;$/;"	m	class:Ui_TranslateDialog	access:public
+label_7	.\ui_roll.h	/^    QLabel *label_7;$/;"	m	class:Ui_RollDialog	access:public
+label_7	.\ui_translate.h	/^    QLabel *label_7;$/;"	m	class:Ui_TranslateDialog	access:public
+label_8	.\ui_extend.h	/^    QLabel *label_8;$/;"	m	class:Ui_ExtendDialog	access:public
+label_8	.\ui_roll.h	/^    QLabel *label_8;$/;"	m	class:Ui_RollDialog	access:public
+label_8	.\ui_stretch.h	/^    QLabel *label_8;$/;"	m	class:Ui_StretchDialog	access:public
+label_8	.\ui_translate.h	/^    QLabel *label_8;$/;"	m	class:Ui_TranslateDialog	access:public
+label_9	.\ui_extend.h	/^    QLabel *label_9;$/;"	m	class:Ui_ExtendDialog	access:public
+label_9	.\ui_roll.h	/^    QLabel *label_9;$/;"	m	class:Ui_RollDialog	access:public
+label_9	.\ui_stretch.h	/^    QLabel *label_9;$/;"	m	class:Ui_StretchDialog	access:public
+label_9	.\ui_translate.h	/^    QLabel *label_9;$/;"	m	class:Ui_TranslateDialog	access:public
+layoutWidget	.\ui_extend.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_ExtendDialog	access:public
+layoutWidget	.\ui_roll.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_RollDialog	access:public
+layoutWidget	.\ui_translate.h	/^    QWidget *layoutWidget;$/;"	m	class:Ui_TranslateDialog	access:public
+main	.\main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+metaObject	.\release\moc_cylinder.cpp	/^const QMetaObject *CylinderDialog::metaObject() const$/;"	f	class:CylinderDialog	signature:() const
+metaObject	.\release\moc_extend.cpp	/^const QMetaObject *ExtendDialog::metaObject() const$/;"	f	class:ExtendDialog	signature:() const
+metaObject	.\release\moc_glwidget.cpp	/^const QMetaObject *GLWidget::metaObject() const$/;"	f	class:GLWidget	signature:() const
+metaObject	.\release\moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow	signature:() const
+metaObject	.\release\moc_roll.cpp	/^const QMetaObject *RollDialog::metaObject() const$/;"	f	class:RollDialog	signature:() const
+metaObject	.\release\moc_stretch.cpp	/^const QMetaObject *StretchDialog::metaObject() const$/;"	f	class:StretchDialog	signature:() const
+metaObject	.\release\moc_translate.cpp	/^const QMetaObject *TranslateDialog::metaObject() const$/;"	f	class:TranslateDialog	signature:() const
+minimumSizeHint	.\glwidget.cpp	/^QSize GLWidget::minimumSizeHint() const$/;"	f	class:GLWidget	signature:() const
+minimumSizeHint	.\glwidget.h	/^    QSize minimumSizeHint() const;$/;"	p	class:GLWidget	access:public	signature:() const
+mouseMoveEvent	.\glwidget.cpp	/^void GLWidget::mouseMoveEvent(QMouseEvent *event)$/;"	f	class:GLWidget	signature:(QMouseEvent *event)
+mouseMoveEvent	.\glwidget.h	/^    void mouseMoveEvent(QMouseEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QMouseEvent *event)
+mouseOperate	.\glwidget.cpp	/^void GLWidget::mouseOperate()$/;"	f	class:GLWidget	signature:()
+mouseOperate	.\glwidget.h	/^    void mouseOperate();$/;"	p	class:GLWidget	access:protected	signature:()
+mousePressEvent	.\glwidget.cpp	/^void GLWidget::mousePressEvent(QMouseEvent *event)$/;"	f	class:GLWidget	signature:(QMouseEvent *event)
+mousePressEvent	.\glwidget.h	/^    void mousePressEvent(QMouseEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QMouseEvent *event)
+mouseReleaseEvent	.\glwidget.cpp	/^void GLWidget::mouseReleaseEvent(QMouseEvent *event)$/;"	f	class:GLWidget	signature:(QMouseEvent *event)
+mouseReleaseEvent	.\glwidget.h	/^    void mouseReleaseEvent(QMouseEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QMouseEvent *event)
+myheight	.\glwidget.h	/^    int myheight;$/;"	m	class:GLWidget	access:private
+mywidth	.\glwidget.h	/^    int mywidth;$/;"	m	class:GLWidget	access:private
+okButton	.\ui_extend.h	/^    QPushButton *okButton;$/;"	m	class:Ui_ExtendDialog	access:public
+okButton	.\ui_roll.h	/^    QPushButton *okButton;$/;"	m	class:Ui_RollDialog	access:public
+okButton	.\ui_stretch.h	/^    QPushButton *okButton;$/;"	m	class:Ui_StretchDialog	access:public
+okButton	.\ui_translate.h	/^    QPushButton *okButton;$/;"	m	class:Ui_TranslateDialog	access:public
+operator !=	.\MyClass.h	/^	bool operator !=(MyPoint s){$/;"	f	class:MyPoint	access:public	signature:(MyPoint s)
+operator !=	.\MyClass.h	/^	bool operator !=(MySide s){$/;"	f	class:MySide	access:public	signature:(MySide s)
+operator ==	.\MyClass.h	/^	bool operator ==(MyPoint s){$/;"	f	class:MyPoint	access:public	signature:(MyPoint s)
+operator ==	.\MyClass.h	/^	bool operator ==(MySide s){$/;"	f	class:MySide	access:public	signature:(MySide s)
+operator ==	.\MyClass.h	/^	bool operator ==(MyVector s){$/;"	f	class:MyVector	access:public	signature:(MyVector s)
+paintGL	.\glwidget.cpp	/^void GLWidget::paintGL()$/;"	f	class:GLWidget	signature:()
+paintGL	.\glwidget.h	/^    void paintGL();$/;"	p	class:GLWidget	access:protected	signature:()
+para_e	.\mainwindow.h	/^    float para_e[5];$/;"	m	class:MainWindow	access:private
+para_r	.\mainwindow.h	/^    float para_r[7];$/;"	m	class:MainWindow	access:private
+para_t	.\mainwindow.h	/^    float para_t[6];$/;"	m	class:MainWindow	access:private
+q	.\glwidget.h	/^    MyPoint q;$/;"	m	class:GLWidget	access:private
+qc	.\glwidget.h	/^    float qc;$/;"	m	class:GLWidget	access:private
+qt_meta_data_CylinderDialog	.\release\moc_cylinder.cpp	/^static const uint qt_meta_data_CylinderDialog[] = {$/;"	v	file:
+qt_meta_data_ExtendDialog	.\release\moc_extend.cpp	/^static const uint qt_meta_data_ExtendDialog[] = {$/;"	v	file:
+qt_meta_data_GLWidget	.\release\moc_glwidget.cpp	/^static const uint qt_meta_data_GLWidget[] = {$/;"	v	file:
+qt_meta_data_MainWindow	.\release\moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
+qt_meta_data_RollDialog	.\release\moc_roll.cpp	/^static const uint qt_meta_data_RollDialog[] = {$/;"	v	file:
+qt_meta_data_StretchDialog	.\release\moc_stretch.cpp	/^static const uint qt_meta_data_StretchDialog[] = {$/;"	v	file:
+qt_meta_data_TranslateDialog	.\release\moc_translate.cpp	/^static const uint qt_meta_data_TranslateDialog[] = {$/;"	v	file:
+qt_meta_stringdata_CylinderDialog	.\release\moc_cylinder.cpp	/^static const char qt_meta_stringdata_CylinderDialog[] = {$/;"	v	file:
+qt_meta_stringdata_ExtendDialog	.\release\moc_extend.cpp	/^static const char qt_meta_stringdata_ExtendDialog[] = {$/;"	v	file:
+qt_meta_stringdata_GLWidget	.\release\moc_glwidget.cpp	/^static const char qt_meta_stringdata_GLWidget[] = {$/;"	v	file:
+qt_meta_stringdata_MainWindow	.\release\moc_mainwindow.cpp	/^static const char qt_meta_stringdata_MainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_RollDialog	.\release\moc_roll.cpp	/^static const char qt_meta_stringdata_RollDialog[] = {$/;"	v	file:
+qt_meta_stringdata_StretchDialog	.\release\moc_stretch.cpp	/^static const char qt_meta_stringdata_StretchDialog[] = {$/;"	v	file:
+qt_meta_stringdata_TranslateDialog	.\release\moc_translate.cpp	/^static const char qt_meta_stringdata_TranslateDialog[] = {$/;"	v	file:
+qt_metacall	.\release\moc_cylinder.cpp	/^int CylinderDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CylinderDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	.\release\moc_extend.cpp	/^int ExtendDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ExtendDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	.\release\moc_glwidget.cpp	/^int GLWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:GLWidget	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	.\release\moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	.\release\moc_roll.cpp	/^int RollDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:RollDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	.\release\moc_stretch.cpp	/^int StretchDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:StretchDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	.\release\moc_translate.cpp	/^int TranslateDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:TranslateDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacast	.\release\moc_cylinder.cpp	/^void *CylinderDialog::qt_metacast(const char *_clname)$/;"	f	class:CylinderDialog	signature:(const char *_clname)
+qt_metacast	.\release\moc_extend.cpp	/^void *ExtendDialog::qt_metacast(const char *_clname)$/;"	f	class:ExtendDialog	signature:(const char *_clname)
+qt_metacast	.\release\moc_glwidget.cpp	/^void *GLWidget::qt_metacast(const char *_clname)$/;"	f	class:GLWidget	signature:(const char *_clname)
+qt_metacast	.\release\moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow	signature:(const char *_clname)
+qt_metacast	.\release\moc_roll.cpp	/^void *RollDialog::qt_metacast(const char *_clname)$/;"	f	class:RollDialog	signature:(const char *_clname)
+qt_metacast	.\release\moc_stretch.cpp	/^void *StretchDialog::qt_metacast(const char *_clname)$/;"	f	class:StretchDialog	signature:(const char *_clname)
+qt_metacast	.\release\moc_translate.cpp	/^void *TranslateDialog::qt_metacast(const char *_clname)$/;"	f	class:TranslateDialog	signature:(const char *_clname)
+r	.\glwidget.h	/^    int r;$/;"	m	class:GLWidget	access:private
+r	.\morphing.h	/^		float r;$/;"	m	class:Morphing	access:private
+resizeGL	.\glwidget.cpp	/^void GLWidget::resizeGL(int width, int height)$/;"	f	class:GLWidget	signature:(int width, int height)
+resizeGL	.\glwidget.h	/^    void resizeGL( int width, int height );$/;"	p	class:GLWidget	access:protected	signature:( int width, int height )
+retranslateUi	.\ui_extend.h	/^    void retranslateUi(QDialog *ExtendDialog)$/;"	f	class:Ui_ExtendDialog	access:public	signature:(QDialog *ExtendDialog)
+retranslateUi	.\ui_roll.h	/^    void retranslateUi(QDialog *RollDialog)$/;"	f	class:Ui_RollDialog	access:public	signature:(QDialog *RollDialog)
+retranslateUi	.\ui_stretch.h	/^    void retranslateUi(QDialog *StretchDialog)$/;"	f	class:Ui_StretchDialog	access:public	signature:(QDialog *StretchDialog)
+retranslateUi	.\ui_translate.h	/^    void retranslateUi(QDialog *TranslateDialog)$/;"	f	class:Ui_TranslateDialog	access:public	signature:(QDialog *TranslateDialog)
+scale	.\glwidget.h	/^    float scale;$/;"	m	class:GLWidget	access:private
+setYRotation	.\glwidget.cpp	/^void GLWidget::setYRotation(int angle)$/;"	f	class:GLWidget	signature:(int angle)
+setYRotation	.\glwidget.h	/^    void setYRotation(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+setZRotation	.\glwidget.cpp	/^void GLWidget::setZRotation(int angle)$/;"	f	class:GLWidget	signature:(int angle)
+setZRotation	.\glwidget.h	/^    void setZRotation(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+setupUi	.\ui_extend.h	/^    void setupUi(QDialog *ExtendDialog)$/;"	f	class:Ui_ExtendDialog	access:public	signature:(QDialog *ExtendDialog)
+setupUi	.\ui_roll.h	/^    void setupUi(QDialog *RollDialog)$/;"	f	class:Ui_RollDialog	access:public	signature:(QDialog *RollDialog)
+setupUi	.\ui_stretch.h	/^    void setupUi(QDialog *StretchDialog)$/;"	f	class:Ui_StretchDialog	access:public	signature:(QDialog *StretchDialog)
+setupUi	.\ui_translate.h	/^    void setupUi(QDialog *TranslateDialog)$/;"	f	class:Ui_TranslateDialog	access:public	signature:(QDialog *TranslateDialog)
+side	.\MyClass.h	/^	QVector <MySide> side;$/;"	m	class:MyFace	access:public
+sizeHint	.\glwidget.cpp	/^QSize GLWidget::sizeHint() const$/;"	f	class:GLWidget	signature:() const
+sizeHint	.\glwidget.h	/^    QSize sizeHint() const;$/;"	p	class:GLWidget	access:public	signature:() const
+spacerItem	.\ui_extend.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_ExtendDialog	access:public
+spacerItem	.\ui_roll.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_RollDialog	access:public
+spacerItem	.\ui_stretch.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_StretchDialog	access:public
+spacerItem	.\ui_translate.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_TranslateDialog	access:public
+spacerItem1	.\ui_roll.h	/^    QSpacerItem *spacerItem1;$/;"	m	class:Ui_RollDialog	access:public
+staticMetaObject	.\release\moc_cylinder.cpp	/^const QMetaObject CylinderDialog::staticMetaObject = {$/;"	m	class:CylinderDialog	file:
+staticMetaObject	.\release\moc_extend.cpp	/^const QMetaObject ExtendDialog::staticMetaObject = {$/;"	m	class:ExtendDialog	file:
+staticMetaObject	.\release\moc_glwidget.cpp	/^const QMetaObject GLWidget::staticMetaObject = {$/;"	m	class:GLWidget	file:
+staticMetaObject	.\release\moc_mainwindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+staticMetaObject	.\release\moc_roll.cpp	/^const QMetaObject RollDialog::staticMetaObject = {$/;"	m	class:RollDialog	file:
+staticMetaObject	.\release\moc_stretch.cpp	/^const QMetaObject StretchDialog::staticMetaObject = {$/;"	m	class:StretchDialog	file:
+staticMetaObject	.\release\moc_translate.cpp	/^const QMetaObject TranslateDialog::staticMetaObject = {$/;"	m	class:TranslateDialog	file:
+tr_par	.\glwidget.h	/^    float tr_par[6];$/;"	m	class:GLWidget	access:private
+type	.\MyClass.h	/^	int type;$/;"	m	class:MyFace	access:public
+vboxLayout	.\ui_extend.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_ExtendDialog	access:public
+vboxLayout	.\ui_roll.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_RollDialog	access:public
+vboxLayout	.\ui_stretch.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_StretchDialog	access:public
+vboxLayout	.\ui_translate.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_TranslateDialog	access:public
+vboxLayout1	.\ui_translate.h	/^    QVBoxLayout *vboxLayout1;$/;"	m	class:Ui_TranslateDialog	access:public
+vboxLayout2	.\ui_translate.h	/^    QVBoxLayout *vboxLayout2;$/;"	m	class:Ui_TranslateDialog	access:public
+vet	.\glwidget.h	/^    MyPoint vet;$/;"	m	class:GLWidget	access:private
+wheelEvent	.\glwidget.cpp	/^void GLWidget::wheelEvent(QWheelEvent *event)$/;"	f	class:GLWidget	signature:(QWheelEvent *event)
+wheelEvent	.\glwidget.h	/^    void wheelEvent(QWheelEvent *event);$/;"	p	class:GLWidget	access:protected	signature:(QWheelEvent *event)
+widget	.\ui_stretch.h	/^    QWidget *widget;$/;"	m	class:Ui_StretchDialog	access:public
+x	.\MyClass.h	/^	float x;$/;"	m	class:MyPoint	access:public
+x	.\morphing.h	/^		float x;$/;"	m	class:Morphing	access:private
+xRot	.\glwidget.h	/^    float xRot;$/;"	m	class:GLWidget	access:private
+xRotationChanged	.\glwidget.h	/^    void xRotationChanged(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+xRotationChanged	.\release\moc_glwidget.cpp	/^void GLWidget::xRotationChanged(int _t1)$/;"	f	class:GLWidget	signature:(int _t1)
+y	.\MyClass.h	/^	float y;$/;"	m	class:MyPoint	access:public
+y	.\morphing.h	/^		float y;$/;"	m	class:Morphing	access:private
+yRot	.\glwidget.h	/^    float yRot;$/;"	m	class:GLWidget	access:private
+yRotationChanged	.\glwidget.h	/^    void yRotationChanged(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+yRotationChanged	.\release\moc_glwidget.cpp	/^void GLWidget::yRotationChanged(int _t1)$/;"	f	class:GLWidget	signature:(int _t1)
+z	.\MyClass.h	/^	float z;$/;"	m	class:MyPoint	access:public
+zRot	.\glwidget.h	/^    float zRot;$/;"	m	class:GLWidget	access:private
+zRotationChanged	.\glwidget.h	/^    void zRotationChanged(int angle);$/;"	p	class:GLWidget	access:public	signature:(int angle)
+zRotationChanged	.\release\moc_glwidget.cpp	/^void GLWidget::zRotationChanged(int _t1)$/;"	f	class:GLWidget	signature:(int _t1)
+~GLWidget	.\glwidget.cpp	/^GLWidget::~GLWidget()$/;"	f	class:GLWidget	signature:()
+~GLWidget	.\glwidget.h	/^    ~GLWidget();$/;"	p	class:GLWidget	access:public	signature:()
+~MainWindow	.\mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow	signature:()
+~MainWindow	.\mainwindow.h	/^    ~MainWindow();$/;"	p	class:MainWindow	access:public	signature:()
+~Morphing	.\morphing.cpp	/^Morphing::~Morphing()$/;"	f	class:Morphing	signature:()
+~Morphing	.\morphing.h	/^		~Morphing();$/;"	p	class:Morphing	access:public	signature:()
